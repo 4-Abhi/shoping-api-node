@@ -1,0 +1,162 @@
+.main {
+  width: 100%;
+  padding: 50px 0px;
+  background: rgb(238, 237, 237);
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.heading {
+  font-size: 1.2rem;
+  background: tomato;
+  color: black;
+  background: white;
+  border-radius: 20px !important;
+  font-family: "Work Sans", sans-serif;
+}
+.heading th {
+  text-align: center;
+  padding: 1rem 0.5rem !important;
+  border-left: 1px solid rgb(228, 228, 228);
+}
+.list th {
+  background: white !important;
+  padding: 2rem;
+
+  margin: auto;
+}
+.list td {
+  font-size: 1.2rem !important;
+  background: white !important;
+  text-align: center;
+  padding: 2.5rem 2rem !important;
+  font-family: "Work Sans", sans-serif;
+  border-left: 1px solid rgb(228, 228, 228);
+}
+.deliver,
+.address {
+  background: white;
+  margin: 2rem 0;
+  padding: 1rem 1rem 2rem;
+}
+
+.head {
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 2rem;
+  font-family: "Work Sans", sans-serif;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+.head h4 {
+  padding: 5px 0px;
+  font-size: 1.6rem;
+}
+
+.card {
+  margin: 0.5rem 0;
+  padding: 2rem 1rem;
+  border: 1px solid silver;
+  border-radius: 10px;
+}
+.card h4,
+h5 {
+  font-family: "Work Sans", sans-serif;
+}
+.billing {
+  padding: 1rem 2rem;
+  background: white;
+}
+.billing h4 {
+  font-family: "Work Sans", sans-serif;
+}
+.billing form {
+  padding: 1rem 0;
+}
+.billing form input {
+  margin: 0.7rem 0;
+}
+.billing form input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: green;
+}
+.submitbtn {
+  width: 140px;
+  margin: 2rem 0;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  background: rgb(16, 165, 16);
+  border-radius: 0.5rem;
+}
+.payment {
+  margin: 2rem 0px;
+  padding: 1rem 2rem;
+  background: white;
+}
+.payment h4 {
+  font-family: "Work Sans", sans-serif;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  width: 90%;
+  margin: auto;
+  margin-right: 0;
+  padding: 0 2rem;
+}
+.method {
+  padding: 1rem 0;
+}
+.option {
+  padding: 1rem 2rem;
+  border: 1px solid rgb(243, 243, 243);
+}
+.cart {
+  padding: 1rem 0;
+  margin: auto;
+}
+.cart ul {
+  padding: 0px;
+  margin: 0px;
+}
+.cart ul li {
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  background: rgb(236, 236, 236);
+  list-style: none;
+  display: flex;
+  border-bottom: 1px solid white;
+  justify-content: space-between;
+}
+.submit {
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  background: rgb(16, 165, 16);
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 992px) {
+  .listing {
+    width: 100%;
+    overflow: scroll;
+
+    overflow-y: scroll !important;
+  }
+}
+@media (max-width: 768px) {
+  .right {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .left {
+    width: 100%;
+  }
+}

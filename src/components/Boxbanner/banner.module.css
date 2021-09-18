@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+  background: url("../../asset/images/banner/background.jpg");
+  height: 380px;
+  background-position: center;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    height: 380px;
+    background-size: cover;
+  }
+}

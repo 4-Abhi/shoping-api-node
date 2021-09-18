@@ -1,0 +1,38 @@
+.cartbtn {
+  width: 100%;
+  padding: 1rem 0;
+}
+.cartbtn button {
+  font-weight: 500;
+  color: white;
+  background: rgba(11, 148, 34, 0.829);
+  font-size: 1rem;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  padding: 0.5rem 0;
+  width: 100%;
+  border: none;
+}
+.editbtn {
+  width: 100%;
+  display: flex;
+  padding: 1rem 0;
+  justify-content: space-between;
+}
+
+.editbtn span {
+  margin: auto;
+  background: rgb(235, 232, 232);
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+
+.editbtn button {
+  width: 45%;
+  border: none;
+  padding: 0.4rem 0;
+  color: white;
+  border-radius: 6px;
+  background: rgba(11, 148, 34, 0.829);
+}

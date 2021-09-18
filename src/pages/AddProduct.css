@@ -1,0 +1,22 @@
+.product_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.add_product {
+  padding: 30px 20px;
+  margin: 50px;
+  width: 50%;
+  margin: auto;
+  border: 1px solid silver;
+}
+.add_product button {
+  width: 100%;
+  font-size: 18px;
+}
+.product_img {
+  height: 145px;
+  width: 145px;
+  margin: 20px;
+}

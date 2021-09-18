@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.main {
+  width: 80%;
+  margin: 30px auto;
+}
+.main h1 {
+  text-align: center;
+  font-size: 3.6rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-family: "Rajdhani", sans-serif;
+}
+.form {
+  width: 50%;
+  margin: 40px auto;
+}
+.form_group input {
+  margin: 1rem 0;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+.login button {
+  padding: 5px;
+  font-size: 18px;
+  width: 100% !important;
+}
+
+.submit {
+  margin: 1rem 0;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.4rem;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #25e12e,
+    #3cd61d,
+    #25e12e,
+    #25e12e
+  );
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.form span {
+  display: flex;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,61 @@
+.menu {
+  display: none;
+}
+.container {
+  width: 90%;
+  padding: 0.5rem 0;
+  margin: auto;
+}
+.container ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+}
+.list {
+  list-style: none;
+  display: block;
+  text-align: center;
+}
+.list a {
+  text-transform: uppercase;
+  color: rgb(75, 72, 72);
+  text-decoration: none;
+  font-size: 0.6rem;
+  font-weight: 400;
+  font-family: "Rajdhani", sans-serif;
+}
+.list a:hover {
+  color: rgb(2, 105, 2);
+}
+.list p {
+  padding: 0px;
+  margin: 0px;
+}
+.cartIcon {
+  position: relative;
+}
+.cartvalue {
+  font-weight: 700;
+  font-size: 0.7rem;
+  top: -17px;
+  right: -11px;
+  width: 15px;
+  color: white;
+  position: absolute;
+  background: green;
+  border-radius: 8px;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .menu {
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background: white;
+    padding: 5px 0px;
+    box-shadow: 0px -5px 15px 0px rgb(0 0 0 / 10%);
+  }
+}

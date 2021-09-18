@@ -1,0 +1,10 @@
+.swiper-wrapper {
+  display: flex;
+}
+.swiper-slide {
+  width: 100%;
+}
+
+.swiper-slide img {
+  width: 100%;
+}

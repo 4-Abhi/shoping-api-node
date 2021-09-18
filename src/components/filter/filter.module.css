@@ -1,0 +1,97 @@
+.filter {
+  width: 100%;
+  margin: 0 auto 2rem;
+  padding: 1.4rem;
+  border-radius: 10px;
+  border: 0.4px solid rgb(224, 224, 224);
+  background: white;
+}
+
+.top {
+  font-family: "Work Sans", sans-serif;
+  border-bottom: 1px solid silver;
+  padding: 15px 0px;
+}
+.top h4 {
+  font-weight: 600;
+  font-size: 1.2rem !important;
+}
+.label {
+  text-align: center;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.max,
+.min {
+  font-size: 1.4rem;
+  margin: 0px 5px 10px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.range {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.submit {
+  margin: 1.4rem auto;
+  width: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-family: "Work Sans", sans-serif;
+  background: rgb(221, 220, 220);
+}
+.submit:hover {
+  transition: all 0.2s;
+  color: white;
+  background: rgb(40, 199, 40);
+}
+.icon {
+  font-size: 1.4rem;
+}
+
+.bottom {
+  width: 100%;
+}
+.content {
+  display: flex;
+}
+.bottom ul {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.bottom ul li {
+  width: 100%;
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+
+.checkbox {
+  font-size: 1.2rem;
+  width: 16px;
+  height: 16px;
+  margin: auto 10px;
+  margin-left: 0px;
+  padding: 0px 0px;
+}
+.label {
+  margin: auto;
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+.number {
+  font-size: 1rem;
+  margin: auto;
+  margin-right: 10px;
+}
+/* rating */
+.rating {
+  display: block;
+  margin: 20px auto;
+}

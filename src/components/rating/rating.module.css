@@ -1,0 +1,19 @@
+.ratings {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.star {
+  width: 60%;
+  display: flex;
+  margin-left: 0px;
+  justify-content: space-evenly;
+}
+.checkbox {
+  font-size: 1.2rem;
+  width: 16px;
+  height: 16px;
+  margin: auto 10px;
+  margin-left: 0px;
+  padding: 0px 0px;
+}

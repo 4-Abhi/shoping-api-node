@@ -1,0 +1,255 @@
+.navbar {
+  width: 100%;
+  padding: 10px 0px 0px;
+  display: inline-flex;
+
+  box-shadow: 0 10px 50px 0 rgb(46 56 220 / 20%);
+}
+.container {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+.left {
+  display: flex;
+  width: 10%;
+}
+
+.right,
+.active {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  margin-right: 0px;
+}
+.brand {
+  display: flex;
+  margin: 0px 5px;
+}
+.brand img {
+  margin: auto;
+  width: 120px;
+  max-height: 90px;
+}
+.search {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  margin-left: 0;
+}
+.links {
+  width: 25%;
+}
+.search form {
+  width: 100%;
+}
+.location {
+  margin: auto;
+  margin-left: 0px;
+}
+.input_box {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  border-radius: 4px;
+  border: 3px solid #209e0f;
+}
+.input_box button {
+  background: none;
+  border: none;
+  color: rgb(128, 125, 125);
+}
+.input_box input {
+  font-size: 1rem;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+}
+.input_box input:focus {
+  outline: none;
+}
+.links ul {
+  margin: 0;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.links ul li {
+  width: 100%;
+  margin: auto;
+  padding: 2px 4px;
+  list-style: none;
+}
+.links ul li a {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgb(53, 44, 44);
+  text-decoration: none;
+  font-family: "Rajdhani", sans-serif;
+}
+.carlist {
+  display: flex;
+  position: relative;
+  height: 55px;
+  width: 55px;
+}
+.cart {
+  display: flex !important;
+  margin: auto !important;
+  font-size: 1.6rem !important;
+}
+.carlist span {
+  font-weight: 700;
+  font-size: 0.7rem;
+  top: 2px;
+  right: 5px;
+  width: 18px;
+  color: white;
+  position: absolute;
+  background: green;
+  border-radius: 8px;
+  text-align: center;
+}
+.profile {
+  display: flex;
+  position: relative !important;
+  justify-content: center;
+}
+
+.heading {
+  font-weight: 600;
+  color: white;
+  font-size: 1.2rem !important;
+  display: flex;
+  margin: auto;
+  padding: 1px 8px;
+  border: 2px solid rgb(29, 192, 35);
+  background: rgb(29, 192, 35);
+}
+.arrow {
+  margin: auto;
+  font-size: 1.4rem !important;
+}
+
+.tittle {
+  margin: auto;
+  margin-top: -3px;
+}
+
+.profile_list {
+  top: 38px;
+  left: 0px;
+  width: 150px !important;
+  margin: 0px;
+  padding: 10px;
+  display: none !important;
+  z-index: 2 !important;
+  flex-direction: column;
+  position: absolute;
+  background: white;
+  box-shadow: 0 3px 6px rgba(126, 144, 247, 0.16),
+    0 3px 6px rgba(108, 138, 236, 0.23);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+.profile:hover .profile_list {
+  overflow: hidden;
+  display: flex !important;
+}
+.profile_list a {
+  padding-top: 0;
+  color: #626262;
+  text-align: justify;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  color: rgb(177, 174, 174);
+  font-size: 14px;
+}
+.name {
+  max-width: 90%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.menu {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  display: none;
+  box-shadow: 0 2px 3px rgb(0 0 0 / 25%), 0 5px 6px rgb(0 0 0 / 22%);
+}
+
+.searchbtn {
+  width: 46px;
+  margin: auto;
+  display: none !important;
+}
+.icon {
+  font-size: 1.6rem !important;
+  margin: auto !important;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .left {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+  }
+  .mbl_icon {
+    display: flex;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+  .menu {
+    display: flex;
+    margin-bottom: 0px;
+  }
+
+  .right {
+    width: 100%;
+    display: none;
+    padding-top: 15px;
+    transition: 0.4s;
+  }
+
+  .searchbtn {
+    width: 45px;
+    height: 45px;
+    display: flex !important;
+    border-radius: 25px;
+    background: rgb(240, 230, 230);
+    margin-right: 1rem;
+  }
+  .active {
+    width: 100%;
+  }
+  .search {
+    width: 100%;
+  }
+  .links {
+    position: absolute;
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

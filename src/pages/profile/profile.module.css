@@ -1,0 +1,32 @@
+.profile_banner,
+.profile_content {
+  width: 100%;
+}
+.profile_banner {
+  display: flex;
+
+  background-image: linear-gradient(
+    to right,
+    #40e495,
+    #40e495,
+    #30dd8a,
+    #2bb673
+  );
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+.banner {
+  display: flex;
+  width: 100%;
+  height: 250px;
+}
+.banner h1 {
+  font-size: 3rem;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}

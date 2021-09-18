@@ -1,0 +1,135 @@
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.wrapper {
+  margin: 50px 0px;
+}
+
+.box_container {
+  width: 95%;
+  margin: auto;
+}
+.img_block_left {
+  position: relative;
+  overflow: hidden;
+  margin: 5px;
+}
+.img_block_left a {
+  display: flex;
+}
+.img_block_left img,
+.img_block_right img {
+  width: 100%;
+}
+
+.description {
+  display: inline-block;
+  top: 21%;
+  left: 10%;
+  position: absolute;
+}
+.description h4 {
+  font-size: 1.4rem;
+  color: #1f1b1b;
+  font-family: "Rozha One", serif;
+}
+
+.description h2 {
+  font-size: 2.4rem;
+  color: orangered;
+  font-family: "Rozha One", serif;
+}
+.left_btn {
+  border: none;
+  font-size: 0.8rem;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+  background: rgb(5, 182, 93);
+}
+.description span,
+.description_right span {
+  margin: 15px 0px;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 65px;
+  color: #080101;
+  border-bottom: 1.4px solid black;
+  font-family: "Work Sans", sans-serif;
+}
+.img_block_right {
+  overflow: hidden;
+  position: relative;
+}
+.description_right {
+  top: 28%;
+  left: 10%;
+  position: absolute;
+}
+.description_right h2 {
+  font-size: 2.4rem;
+  color: white;
+  font-family: "Rozha One", serif;
+}
+/* Swiper Slider */
+.swiper-slide {
+  padding: 2rem;
+  margin: auto;
+}
+.swiper-slide img {
+  padding: 25px 0px;
+}
+
+/* Cartlist (Right)  Sidebar*/
+.offcanvas-header {
+  padding: 1rem 0 !important;
+  position: relative;
+}
+
+.offcanvas-header button {
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #080101;
+  left: 0px;
+  position: absolute;
+  top: 10px;
+  left: -25px;
+  background: white;
+  border-radius: 3rem;
+  border: none;
+}
+@media (max-width: 992px) {
+  .img_block_left img,
+  .img_block_right img {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .description_right {
+    top: 25%;
+    left: 10%;
+  }
+  .description {
+    top: 15%;
+    left: 10%;
+  }
+  .description h4 {
+    margin: 0;
+    padding: 0;
+  }
+  .description button {
+    margin-bottom: 5px;
+  }
+  .description_right h2,
+  .description h2 {
+    font-size: 2rem;
+    padding: 0px;
+  }
+  .description_right span,
+  .description span {
+    padding: 0;
+    margin: 0;
+  }
+}
